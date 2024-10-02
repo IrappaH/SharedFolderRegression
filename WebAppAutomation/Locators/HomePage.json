@@ -1,0 +1,166 @@
+{
+	"elements": {
+		"HomePageTabIcon1": {
+			"Xpath": "//LI[@data-v-f5bd8c42='']"
+		},
+		"HomePageTabIcon": {
+			"Xpath": "//LABEL[@id='lblUserName']"
+		},
+		"HomePageTab": {
+			"Xpath": "//h1[not(@id) and not(@class)]"
+		},
+		"HomePageTabLbl": {
+			"Xpath": "//div[@id='app']/div/h3"
+		}
+		
+		
+	/*	,"HomePageCardLbl": {
+			"Xpath": "//div[@id='id_wrapper']//div[contains(@class,'card-header')]/p[1]/font"
+		},
+		"ReportSettingsLbl": {
+			"Xpath": "//div[@id='id_wrapper']//div[contains(@class,'card-header')]/p[2]/font"
+		},
+		"AggregationPeriodLbl": {
+			"Xpath": "//table//tr[1]/td/p"
+		},
+		"AggregationPeriodDateTxtBox": {
+			"Xpath": "//INPUT[@type='text']"
+		},
+		"AggregationPeriodDatePicker": {
+			"Xpath": "//div[contains(@class,'react-datepicker__month-container')]"
+		},
+		"AggregationPeriodDatePickerYearLbl": {
+			"Xpath": "//div[contains(@class,'react-datepicker__header react-datepicker-year-header')]"
+		},
+		"January": {
+			"Xpath": "//*[@id='id_wrapper']//div[1]/div[contains(@class,'react-datepicker__month-0')]"
+		},
+		"February": {
+			"Xpath": "//*[@id='id_wrapper']//div[1]/div[contains(@class,'react-datepicker__month-1')]"
+		},
+		"March": {
+			"Xpath": "//*[@id='id_wrapper']//div[1]/div[contains(@class,'react-datepicker__month-2')]"
+		},
+		"April": {
+			"Xpath": "//*[@id='id_wrapper']//div[2]/div[contains(@class,'react-datepicker__month-3')]"
+		},
+		"May": {
+			"Xpath": "//*[@id='id_wrapper']//div[2]/div[contains(@class,'react-datepicker__month-4')]"
+		},
+		"June": {
+			"Xpath": "//*[@id='id_wrapper']//div[2]/div[contains(@class,'react-datepicker__month-5')]"
+		},
+		"July": {
+			"Xpath": "//*[@id='id_wrapper']//div[3]/div[contains(@class,'react-datepicker__month-6')]"
+		},
+		"August": {
+			"Xpath": "//*[@id='id_wrapper']//div[3]/div[contains(@class,'react-datepicker__month-7')]"
+		},
+		"September": {
+			"Xpath": "//*[@id='id_wrapper']//div[3]/div[contains(@class,'react-datepicker__month-8')]"
+		},
+		"October": {
+			"Xpath": "//*[@id='id_wrapper']//div[4]/div[contains(@class,'react-datepicker__month-9')]"
+		},
+		"November": {
+			"Xpath": "//*[@id='id_wrapper']//div[4]/div[contains(@class,'react-datepicker__month-10')]"
+		},
+		"December": {
+			"Xpath": "//*[@id='id_wrapper']//div[4]/div[contains(@class,'react-datepicker__month-11')]"
+		},
+		"January-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[1]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"February-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[1]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"March-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[1]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"April-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[2]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"May-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[2]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"June-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[2]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"July-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[3]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"August-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[3]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"September-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[3]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"October-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[4]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"November-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[4]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"December-Selected": {
+			"Xpath": "//*[@id='id_wrapper']//div[4]/div[contains(@class,'react-datepicker__month-text--keyboard-selected')]"
+		},
+		"previousYearBtn": {
+			"Xpath": "//button[@aria-label='Previous Year']"
+		},
+		"nextYearBtn": {
+			"Xpath": "//button[@aria-label='Next Year']"
+		},
+		"TenantIDLbl": {
+			"Xpath": "//table//tr[2]/td/p"
+		},
+		"TenantIDDropDownBtn": {
+			"Xpath": "//BUTTON[@id='dropdown-basic']"
+		},
+		"TenantID1st": {
+			"Xpath": "//div[contains(@class,'show dropdown')]/div[contains(@class,'dropdown-menu show')]/a[1]"
+		},
+		"SideBarBtn": {
+			"Xpath": "//button[@id='sidebarCollapse']"
+		},
+		"UpdateBtn": {
+			"Xpath": "//H3[@data-v-4e759320=''][text()='概要']"
+		},
+		"UpdateBtn1": {
+			"Xpath": "//H3[@data-v-4e759320=''][text()='概要']"
+		},
+		
+		"PrintPDFbtn": {
+			"Xpath": "//BUTTON[@id='id_btn_printPDF']"
+		},
+		"SummaryTab": {
+			"Xpath": "//A[@id='tab-container-tab-1']"
+		},
+		"IndividualPCInformationTab": {
+			"Xpath": "//A[@id='tab-container-tab-2']"
+		},
+		"NASInformationTab": {
+			"Xpath": "//A[@id='tab-container-tab-3']"
+		},
+		"MFPInformationManufacturedBySHARPTab": {
+			"Xpath": "//A[@id='tab-container-tab-4'"
+		},
+		"MFPInformationOtherCompanySystemTab": {
+			"Xpath": "//A[@id='tab-container-tab-5']"
+		},
+		"EquipmentConfigurationDiagramTab": {
+			"Xpath": "//A[@id='tab-container-tab-6']"
+		},
+		"AppUsageStatusTab": {
+			"Xpath": "//A[@id='tab-container-tab-7']"
+		},
+		"SecuritySoftwareUsageStatusTab": {
+			"Xpath": "//A[@id='tab-container-tab-8']"
+		},
+		"FSecureStatusTab": {
+			"Xpath": "//A[@id='tab-container-tab-9']"
+		},
+		"RefreshBtn": {
+			"Xpath": "//A[@id='tab-container-tab-9']"
+		}*/
+	}
+}

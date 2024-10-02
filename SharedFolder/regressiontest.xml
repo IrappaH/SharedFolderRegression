@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test1">
+
+		<parameter name="configfile"
+			value="properties\chrome\config.properties" />
+		<classes>
+			
+			<!--
+			
+			<class name="test.script.CreateFolderInOtherUserPersonalSubFolder" />
+			<class name="test.script.CreateFolderInOtherUserPersonalRootFolder" />
+			
+		  	<class name="test.script.CreateFolderInPersonalRootFolder" />			
+			<class name="test.script.CreateFolderInPersonalSubFolder" />
+			
+	 		<class name="test.script.CreateFolderInShareRootFolder" />
+		    <class name="test.script.CreateFolderInShareSubFolder" />
+		     
+		    <class name="test.script.RenamePersonalFolderTest" />
+		    <class name="test.script.RenameShareFolderTest" />
+		    <class name="test.script.RenameOtherUserPersonalFolderTest" />
+		    
+		    
+		     <class name="test.script.PersonalFolderUploadFileToRootFolderTest" />
+		     <class name="test.script.PersonalFolderUploadFileToSubFolderTest" />
+		     
+		      <class name="test.script.SharedFolderUploadFileToRootFolderTest" />
+		       <class name="test.script.SharedFolderUploadFileToSubFolderTest" />
+		       
+		     <class name="test.script.OtherPersonalFolderUploadFileToSubFolderTest" />
+		     <class name="test.script.OtherPersonalFolderUploadFileToRootFolderTest" />
+		     
+		      <class name="test.script.ShareFileInPersonalFolderTest"/>
+		       <class name="test.script.ShareFileInOtherUserPersonalFolderTest"/>
+		        <class name="test.script.ShareFileInSharedFolderTest"/>
+		       -->
+		       
+		     <class name="test.script.MoveFileFoldersSharedFolderTest"/>
+		     
+		    
+		     
+		   
+			
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

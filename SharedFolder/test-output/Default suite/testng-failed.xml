@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.script.CreateFolderInPersonalRootFolder">
+        <methods>
+          <include name="verifyErrorMsgIsDisplayedForNameEndingWithHalfWidthSpace"/>
+          <include name="verifyErrorMsgIsDisplayedForsnapshots"/>
+          <include name="verifyErrorMsgIsDisplayedForColon"/>
+          <include name="verifyErrorMsgIsDisplayedForSnapshot"/>
+          <include name="verifyErrorMsgIsDisplayedForSNAPSHOTS"/>
+          <include name="verifyErrorMsgIsDisplayedForsnapshot"/>
+          <include name="verifyErrorMsgIsDisplayedForQuestionMark"/>
+          <include name="verifyErrorMsgIsDisplayedForBackSlash"/>
+          <include name="verify84LengthKatakanaCharFolderIsCreatedSingleByte"/>
+          <include name="verifyErrorMsgIsDisplayedForPRN"/>
+          <include name="verify84LengthHiraganaCharFolderIsCreatedMultiByte"/>
+          <include name="verifyErrorMsgIsDisplayedForclock$"/>
+          <include name="verifySpecialCharFolderIsCreated"/>
+          <include name="verifyErrorMsgIsDisplayedFornul"/>
+          <include name="verifyErrorMsgIsDisplayedForTRASHBOX"/>
+          <include name="login"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT1"/>
+          <include name="verify84LengthKatakanaCharFolderIsCreatedMultiByte"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT3"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT0"/>
+          <include name="processTestContext"/>
+          <include name="verifyErrorMsgIsDisplayedForSNAPSHOT"/>
+          <include name="verifyErrorMsgIsDisplayedForMultiplication"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT9"/>
+          <include name="configureSuite"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM3"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT6"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT8"/>
+          <include name="verifyFolderIsEmpty"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT5"/>
+          <include name="verifyErrorMsgIsDisplayedForDoubleQuotes"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT7"/>
+          <include name="verifyErrorMsgIsDisplayedForcon"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT4"/>
+          <include name="setupClassCommonSteps"/>
+          <include name="verify84LengthKanjiCharFolderIsCreatedSingleByte"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM0"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM2"/>
+          <include name="tearDown"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM4"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM1"/>
+          <include name="deleteAllFolders"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM6"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM8"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM5"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM7"/>
+          <include name="verifyErrorMsgIsDisplayedForNUL"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM9"/>
+          <include name="verifyErrorMsgIsDisplayedForCLOCK$"/>
+          <include name="verify84LengthEngCharFolderIsCreatedMultiByte"/>
+          <include name="verifyErrorMsgIsDisplayedForNameEndindWithDot"/>
+          <include name="verifyErrorMsgIsDisplayedForFontSlash"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt2"/>
+          <include name="verifyErrorMsgIsDisplayedForREMOTE_ACCESS_BACKUP"/>
+          <include name="verifyErrorMsgIsDisplayedForNameStartingWithHalfWidthSpace"/>
+          <include name="verifyErrorMsgIsDisplayedForCON"/>
+          <include name="verifyErrorMsgIsDisplayedFortrashBox"/>
+          <include name="verify84LengthEngCharFolderIsCreatedSingleByte"/>
+          <include name="closeBrowser"/>
+          <include name="verifyErrorMsgIsDisplayedForaux"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT2"/>
+          <include name="verifyErrorMsgIsDisplayedForPipe"/>
+          <include name="verifyFolderIsCreated"/>
+          <include name="verifyErrorMsgIsDisplayedForcom0"/>
+          <include name="verifyErrorMsgIsDisplayedForcom2"/>
+          <include name="verifyErrorMsgIsDisplayedForLessThan"/>
+          <include name="verifyErrorMsgIsDisplayedForcom1"/>
+          <include name="verifyErrorMsgIsDisplayedForcom4"/>
+          <include name="verifyErrorMsgIsDisplayedForGreaterThan"/>
+          <include name="verifyErrorMsgIsDisplayedForcom6"/>
+          <include name="verifyErrorMsgIsDisplayedForcom5"/>
+          <include name="verifyErrorMsgIsDisplayedForcom8"/>
+          <include name="verifyErrorMsgIsDisplayedForcom7"/>
+          <include name="verifyErrorMsgIsDisplayedForcom9"/>
+          <include name="verifyErrorMsgIsDisplayedForremote_access_backup"/>
+          <include name="verifyErrorMsgIsDisplayedFortrashbox"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt1"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt0"/>
+          <include name="verify84LengthKanjiCharFolderIsCreatedMultiByte"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt3"/>
+          <include name="verifyErrorMsgIsDisplayedForprn"/>
+          <include name="startApplication"/>
+          <include name="verifyErrorMsgIsDisplayedForcom3"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt6"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt9"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt8"/>
+          <include name="verifyErrorMsgIsDisplayedForAUX"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt5"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt4"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt7"/>
+        </methods>
+      </class> <!-- test.script.CreateFolderInPersonalRootFolder -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

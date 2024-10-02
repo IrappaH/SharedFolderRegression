@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-27T19:36:22 JST" name="Suite" finished-at="2024-09-27T19:37:36 JST" duration-ms="74577">
+    <groups>
+      <group name="Functional">
+        <method signature="MoveFileFoldersSharedFolderTest.Verify()[pri:49, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" name="Verify" class="test.script.MoveFileFoldersSharedFolderTest"/>
+      </group> <!-- Functional -->
+    </groups>
+    <test started-at="2024-09-27T19:36:22 JST" name="Test1" finished-at="2024-09-27T19:37:36 JST" duration-ms="74577">
+      <class name="test.script.MoveFileFoldersSharedFolderTest">
+        <test-method is-config="true" signature="configureSuite(org.testng.ITestContext)[pri:0, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" started-at="2024-09-27T19:36:22 JST" name="configureSuite" finished-at="2024-09-27T19:36:22 JST" duration-ms="61" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@109d724c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureSuite -->
+        <test-method is-config="true" signature="processTestContext(org.testng.ITestContext)[pri:0, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" started-at="2024-09-27T19:36:22 JST" name="processTestContext" finished-at="2024-09-27T19:36:22 JST" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@109d724c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processTestContext -->
+        <test-method is-config="true" signature="setupClassCommonSteps(org.testng.ITestContext)[pri:0, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" started-at="2024-09-27T19:36:22 JST" name="setupClassCommonSteps" finished-at="2024-09-27T19:36:22 JST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@109d724c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClassCommonSteps -->
+        <test-method is-config="true" signature="login(org.testng.ITestContext)[pri:0, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" started-at="2024-09-27T19:36:22 JST" name="login" finished-at="2024-09-27T19:36:37 JST" duration-ms="15268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@109d724c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="startApplication(java.lang.reflect.Method)[pri:0, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" started-at="2024-09-27T19:36:37 JST" name="startApplication" finished-at="2024-09-27T19:36:37 JST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.script.MoveFileFoldersSharedFolderTest.Verify() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method is-config="true" signature="verifyFolderIsEmpty()[pri:0, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" started-at="2024-09-27T19:36:37 JST" name="verifyFolderIsEmpty" finished-at="2024-09-27T19:36:49 JST" duration-ms="11485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFolderIsEmpty -->
+        <test-method signature="Verify()[pri:49, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" started-at="2024-09-27T19:36:49 JST" name="Verify" finished-at="2024-09-27T19:37:34 JST" duration-ms="45112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify -->
+        <test-method is-config="true" signature="deleteAllFolders()[pri:0, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" started-at="2024-09-27T19:37:34 JST" name="deleteAllFolders" finished-at="2024-09-27T19:37:36 JST" duration-ms="2125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllFolders -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" started-at="2024-09-27T19:37:36 JST" name="tearDown" finished-at="2024-09-27T19:37:36 JST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify status=SUCCESS method=MoveFileFoldersSharedFolderTest.Verify()[pri:49, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestContext)[pri:0, instance:test.script.MoveFileFoldersSharedFolderTest@c730b35]" started-at="2024-09-27T19:37:36 JST" name="closeBrowser" finished-at="2024-09-27T19:37:36 JST" duration-ms="252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@109d724c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.script.MoveFileFoldersSharedFolderTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

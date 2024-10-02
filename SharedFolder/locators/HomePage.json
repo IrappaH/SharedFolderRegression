@@ -1,0 +1,370 @@
+{
+	"elements": {
+		"sharedFolderLbl": {
+			"chrome": {
+				"xpath": "//div[(@class='contentsArea')]//h1"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='contentsArea')]//h1"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='contentsArea')]//h1"
+			},
+			"safari": {
+				"xpath": "//div[(@class='contentsArea')]//h1"
+			}
+		},
+		"userLbl": {
+			"chrome": {
+				"xpath": "//p[(@class='user')]"
+			},
+			"fireFox": {
+				"xpath": "//p[(@class='user')]"
+			},
+			"msedge": {
+				"xpath": "//p[(@class='user')]"
+			},
+			"safari": {
+				"xpath": "//p[(@class='user')]"
+			}
+		},
+		"logoutBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='logout')]//div[(@class='v-image__image v-image__image--cover')]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='logout')]//div[(@class='v-image__image v-image__image--cover')]"
+			},
+			"msedge": {
+				"xpath": "//div[(@id='logout')]//div[(@class='v-image__image v-image__image--cover')]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='logout')]//div[(@class='v-image__image v-image__image--cover')]"
+			}
+		},
+		"homeLink": {
+			"chrome": {
+				"xpath": "//a[(@class='router-link-exact-active router-link-active')]"
+			},
+			"fireFox": {
+				"xpath": "//a[(@class='router-link-exact-active router-link-active')]"
+			},
+			"msedge": {
+				"xpath": "//a[(@class='router-link-exact-active router-link-active')]"
+			},
+			"safari": {
+				"xpath": "//a[(@class='router-link-exact-active router-link-active')]"
+			}
+		},
+		"overviewLbl": {
+			"chrome": {
+				"xpath": "//div[(@class='v-application--wrap')]/h3"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='v-application--wrap')]/h3"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='v-application--wrap')]/h3"
+			},
+			"safari": {
+				"xpath": "//div[(@class='v-application--wrap')]/h3"
+			}
+		},
+		"totalCapacityLbl": {
+			"chrome": {
+				"xpath": "(//div[(@class='summary')]//h4)[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='summary')]//h4)[1]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='summary')]//h4)[1]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='summary')]//h4)[1]"
+			}
+		},
+		"totalCapacityValue": {
+			"chrome": {
+				"xpath": "(//div[(@class='summary')]//p)[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='summary')]//p)[1]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='summary')]//p)[1]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='summary')]//p)[1]"
+			}
+		},
+		"totalUsageLbl": {
+			"chrome": {
+				"xpath": "(//div[(@class='summary')]//h4)[2]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='summary')]//h4)[2]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='summary')]//h4)[2]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='summary')]//h4)[2]"
+			}
+		},
+		"totalUsageValue": {
+			"chrome": {
+				"xpath": "(//div[(@class='summary')]//p)[2]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='summary')]//p)[2]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='summary')]//p)[2]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='summary')]//p)[2]"
+			}
+		},
+		"remainingCapacityLbl": {
+			"chrome": {
+				"xpath": "(//div[(@class='summary')]//h4)[3]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='summary')]//h4)[3]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='summary')]//h4)[3]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='summary')]//h4)[3]"
+			}
+		},
+		"remainingCapacityValue": {
+			"chrome": {
+				"xpath": "(//div[(@class='summary')]//p)[3]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='summary')]//p)[3]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='summary')]//p)[3]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='summary')]//p)[3]"
+			}
+		},
+		"graph": {
+			"chrome": {
+				"xpath": "//div[(@id='graph')]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='graph')]"
+			},
+			"msedge": {
+				"xpath": "//div[(@id='graph')]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='graph')]"
+			}
+		},
+		"totalUsageValueBelowGraph": {
+			"chrome": {
+				"xpath": "//div[(@class='flexCenter')]//p"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='flexCenter')]//p"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='flexCenter')]//p"
+			},
+			"safari": {
+				"xpath": "//div[(@class='flexCenter')]//p"
+			}
+		},
+		"totalCapacityValueBelowGraph": {
+			"chrome": {
+				"xpath": "(//div[(@class='flex')]//p)[2]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='flex')]//p)[2]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='flex')]//p)[2]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='flex')]//p)[2]"
+			}
+		},
+		"yourUsageValue": {
+			"chrome": {
+				"xpath": "(//div[(@class='flexCenter')])[2]/child::*"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='flexCenter')])[2]/child::*"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='flexCenter')])[2]/child::*"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='flexCenter')])[2]/child::*"
+			}
+		},
+		"historyBtn": {
+			"chrome": {
+				"xpath": "//button[(@type='button')]"
+			},
+			"fireFox": {
+				"xpath": "//button[(@type='button')]"
+			},
+			"msedge": {
+				"xpath": "//button[(@type='button')]"
+			},
+			"safari": {
+				"xpath": "//button[(@type='button')]"
+			}
+		},
+		"downloadTrafficTotalUsageValue": {
+			"chrome": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][1]/div[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][1]/div[2]"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][1]/div[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][1]/div[2]"
+			}
+		},
+		"remainingDownloadVolumeValue": {
+			"chrome": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][2]/div[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][2]/div[2]"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][2]/div[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][2]/div[2]"
+			}
+		},
+		"resetDate": {
+			"chrome": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][3]/div[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][3]/div[2]"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][3]/div[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='row ma-0 mb-1')][3]/div[2]"
+			}
+		},
+		"folderLbl": {
+			"chrome": {
+				"xpath": "//div[(@class='d-inline-flex justify-start col col-auto')]/h3"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='d-inline-flex justify-start col col-auto')]/h3"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='d-inline-flex justify-start col col-auto')]/h3"
+			},
+			"safari": {
+				"xpath": "//div[(@class='d-inline-flex justify-start col col-auto')]/h3"
+			}
+		},
+		"hideOtherUserFolderCheckBox": {
+			"chrome": {
+				"xpath": "//div[(@class='v-input--selection-controls__ripple')]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='v-input--selection-controls__ripple')]"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='v-input--selection-controls__ripple')]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='v-input--selection-controls__ripple')]"
+			}
+		},
+		"shareFolderLbl": {
+			"chrome": {
+				"xpath": "(//div[(@class='target backupTarget')])[1]/h4"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='target backupTarget')])[1]/h4"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='target backupTarget')])[1]/h4"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='target backupTarget')])[1]/h4"
+			}
+		},
+		"shareFolderValue": {
+			"chrome": {
+				"xpath": "(//div[(@class='target backupTarget')])[1]/p[@class='data']"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='target backupTarget')])[1]/p[@class='data']"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='target backupTarget')])[1]/p[@class='data']"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='target backupTarget')])[1]/p[@class='data']"
+			}
+		},
+		"foldersList": {
+			"chrome": {
+				"xpath": "//div[(@class='target backupTarget')]//div[(@id='deviceTitle')]/div[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='target backupTarget')]//div[(@id='deviceTitle')]/div[2]"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='target backupTarget')]//div[(@id='deviceTitle')]/div[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='target backupTarget')]//div[(@id='deviceTitle')]/div[2]"
+			}
+		},
+		
+		"otheruserpersonalFolderLbl": {
+			"chrome": {
+				"xpath": "(//div[(@class='target backupTarget')])[3]/h4"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='target backupTarget')])[4]/h4"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='target backupTarget')]//div[(@id='deviceTitle')]/div[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='target backupTarget')]//div[(@id='deviceTitle')]/div[2]"
+			}
+		},
+		
+		"personalFolderLbl": {
+			"chrome": {
+				"xpath": "(//div[(@class='target backupTarget')])[2]/h4"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='target backupTarget')])[2]/h4"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='target backupTarget')])[2]/h4"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='target backupTarget')])[2]/h4"
+			}
+		}
+	}
+}

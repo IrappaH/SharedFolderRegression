@@ -1,0 +1,138 @@
+{
+	"elements": {
+		"deleteFolderFileLbl": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[1]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[1]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[1]"
+			}
+		},
+		"isItOkLbl": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[2]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[2]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[2]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[2]"
+			}
+		},
+		"itTakesSeveralMinLbl": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[3]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[3]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[3]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[3]"
+			}
+		},
+		"cancelBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[4]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[4]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[4]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[4]"
+			}
+		},
+		
+				
+	"deleteFolderFileLbl":{
+	
+    	"chrome":{
+    		"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[1]"
+    	},
+    	"fireFox":{
+    		"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[1]"
+    	},
+    	"msedge":{
+			"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[1]"
+    	},
+    	"safari":{
+			"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[1]"
+    	}
+	},
+	"isItOkLbl":{
+	
+    	"chrome":{
+    		"xpath":"(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[2]"
+    	},
+    	"fireFox":{
+    		"xpath":"(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[2]"
+    	},
+    	"msedge":{
+			"xpath":"(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[2]"
+    	},
+    	"safari":{
+			"xpath":"(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[2]"
+    	}
+	},
+	"itTakesSeveralMinLbl":{
+	
+    	"chrome":{
+    		"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[3]"
+    	},
+    	"fireFox":{
+    		"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[3]"
+    	},
+    	"msedge":{
+			"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[3]"
+    	},
+    	"safari":{
+			"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[3]"
+    	}
+	},
+	"cancelBtn":{
+	
+    	"chrome":{
+    		"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[4]"
+    	},
+    	"fireFox":{
+    		"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[4]"
+    	},
+    	"msedge":{
+			"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[4]"
+    	},
+    	"safari":{
+			"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[4]"
+    	}
+	},
+	
+	"okBtn":{
+	
+    	"chrome":{
+    		"xpath": "//SPAN[@class='v-btn__content'][text()='OK']"
+    	},
+    	"fireFox":{
+    		"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[5]"
+    	},
+    	"msedge":{
+			"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[5]"
+    	},
+    	"safari":{
+			"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//font/font)[5]"
+    	}
+	}
+}	
+} 

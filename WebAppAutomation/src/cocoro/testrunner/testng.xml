@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="srdm test Suite" parallel="false" thread-count="5"
+	verbose="2">
+
+	<test name="SmokeTest">
+		<parameter name="app_url"
+			value="http://cocoro-office-ssdi.net/" />		<!-- This is mandatory field -->
+		<parameter name="uname" value="developer" />
+		<parameter name="pwd" value="12345678" />
+		<parameter name="browser" value="chrome" />		<!-- This is mandatory field -->
+		<parameter name="buildversion" value="2.6.0.2457"></parameter>  <!-- This is mandatory field -->
+		<parameter name="language" value="English"></parameter>  <!-- This is mandatory field -->
+		<parameter name="email" value="yes"></parameter>  <!-- This is mandatory field -->
+		<parameter name="smtpserver" value="172.29.242.29"></parameter>  <!-- This is mandatory field -->
+		<parameter name="smtpport" value="25"></parameter>  <!-- This is mandatory field -->
+		<parameter name="fromAdd" value="gdvmtest@gmail.com"></parameter>  <!-- This is mandatory field -->
+		<parameter name="toAdd" value="gdvmtest@gmail.com"></parameter>  <!-- This is mandatory field -->
+		<!-- <groups>
+			<run>
+				<include name="Proc01_WebUI" />
+			</run>
+		</groups> -->
+		<!-- <packages> <package name="srdm.tests.selectalltp.webui" /> </packages> -->
+
+		<classes>
+			<class name="cocoro.tests.HomePageTest" />
+			<!-- <class name="srdm.tests.selectalltp.webui.Proc01_WebUI_FilterListPage" />
+			<class name="srdm.tests.selectalltp.webui.Proc01_WebUI_RegisterPage" />
+			<class name="srdm.tests.selectalltp.webui.Proc01_WebUI_ReportPage" />
+			<class name="srdm.tests.selectalltp.webui.Proc01_WebUI_SubGroupPage" />
+			<class name="srdm.tests.selectalltp.webui.Proc01_WebUI_PrintDriverPage" /> -->
+			<!-- <class name="srdm.tests.selectalltp.Proc01_WebUI" /> -->
+			<!-- <class name="srdm.tests.smoketest.ModulesChkTest" /> -->
+			<!-- <class name="srdm.tests.smoketest.SubGroupTest" /> -->
+			<!-- <class name="srdm.tests.SectionTest"/> -->
+			<!-- <class name="srdm.tests.LoginTest"/> -->
+			<!-- <class name="srdm.tests.smoketest.GeneralTest"/> -->
+
+		</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,26 @@
+{
+  "elements" : {
+    "Title" : {
+      "Xpath" : "//h1[not(@id) and not(@class)]"
+    },
+    "Home" : {
+      "Xpath" : "//a[@class='router-link-exact-active router-link-active']"
+    },
+    
+    "Homeicon" : {
+      "Xpath" : "//img[@alt='logo']"
+    },
+    
+    "Username" : {
+      "Xpath" : "//p[@class='user']"
+    },
+    
+    "Logout" : {
+      "Xpath" : "//div[@class='v-image__image v-image__image--cover']"
+    },
+    
+    "Overview" : {
+      "Xpath" : "//div[@id='app']/div/h3"
+    }
+  }
+}

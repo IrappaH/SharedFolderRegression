@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="configfile" value="properties\chrome\config.properties"/>
+    <classes>
+      <class name="test.script.MoveFileFoldersSharedFolderTest">
+        <methods>
+          <include name="processTestContext"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="verifyFolderIsEmpty"/>
+          <include name="startApplication"/>
+          <include name="configureSuite"/>
+          <include name="closeBrowser"/>
+          <include name="VerifyUpperParentAllowedToSelect"/>
+          <include name="deleteAllFolders"/>
+          <include name="setupClassCommonSteps"/>
+        </methods>
+      </class> <!-- test.script.MoveFileFoldersSharedFolderTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

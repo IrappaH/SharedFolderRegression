@@ -1,0 +1,7 @@
+{
+	"elements": {
+		"StorageLabel": {
+			"Xpath": "//SPAN[@class='vertical-text mt-5']"
+		}
+	}
+}

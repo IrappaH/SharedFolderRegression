@@ -1,0 +1,46 @@
+{
+	"elements": {
+		"HomeIconPage": {
+			"Xpath": "//BUTTON[@id='id_link_dashboard']"
+		},
+		"DateTextBox": {
+			"Xpath": "//INPUT[@type='text']"
+		},
+		"TenantIDDropDown": {
+			"Xpath": "//BUTTON[@id='dropdown-basic']"
+		},
+		"UpdateBtn": {
+			"Xpath": "//BUTTON[@id='id_btn_update']"
+		},
+		"PrintPDFbtn": {
+			"Xpath": "//BUTTON[@id='id_btn_printPDF']"
+		},
+		"Summarybtn": {
+			"Xpath": "//A[@id='tab-container-tab-1']"
+		},
+		"PCInfobtn": {
+			"Xpath": "//A[@id='tab-container-tab-2']"
+		},
+		"NASInfobtn": {
+			"Xpath": "//A[@id='tab-container-tab-3']"
+		},
+		"MFPInfoSharpbtn": {
+			"Xpath": "//A[@id='tab-container-tab-4'"
+		},
+		"MFPInfoOtherCmpnyBtn": {
+			"Xpath": "//A[@id='tab-container-tab-5']"
+		},
+		"DeviceConfgDiagrmBtn": {
+			"Xpath": "//A[@id='tab-container-tab-6']"
+		},
+		"AppUsageStatusBtn": {
+			"Xpath": "//A[@id='tab-container-tab-7']"
+		},
+		"SecuritySfUsagestatusBtn": {
+			"Xpath": "//A[@id='tab-container-tab-8']"
+		},
+		"FsecureBtn": {
+			"Xpath": "//A[@id='tab-container-tab-9']"
+		}
+	}
+}

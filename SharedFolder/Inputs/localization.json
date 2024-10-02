@@ -1,0 +1,173 @@
+{
+	"stringlocalize": {
+		"LoginLbl": {
+			"Japanese": "ãƒ­ã‚°ã‚¤ãƒ³",
+			"English": "Login"
+		},
+		"UserNameLbl": {
+			"Japanese": "ID",
+			"English": "ID"
+		},
+		"PasswordLbl": {
+			"Japanese": "ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰",
+			"English": "Password"
+		},
+		"ErrorMgs": {
+			"Japanese": "ãƒ­ã‚°ã‚¤ãƒ³ã�«å¤±æ•—ã�—ã�¾ã�—ã�Ÿã€‚IDã€�ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã�®ã�”ç¢ºèª�ã�Šé¡˜ã�„è‡´ã�—ã�¾ã�™ã€‚",
+			"English": "errormsg"
+		},
+		"HomePageTabLbl": {
+			"Japanese": "ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸",
+			"English": "home Page"
+		},
+		"HomePageCardLbl": {
+			"Japanese": "ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸",
+			"English": "home Page"
+		},
+		"ReportSettingsLbl": {
+			"Japanese": "ãƒ¬ãƒ�ãƒ¼ãƒˆè¨­å®š:",
+			"English": "ReportSettings:"
+		},
+		"CreateErrorMgsWith406": {
+			"Japanese": "フォルダー名・ファイル名が不正です。(406)",
+			"English": "The folder name/file name is invalid. (406)"
+		},
+		"CreateErrorMgs": {
+			"Japanese": "フォルダー名・ファイル名が不正です。",
+			"English": "The folder name/file name is invalid."
+		},
+		"FolderCreateErrorMgs": {
+			"Japanese": "フォルダー名が長すぎます。",
+			"English": "The folder name is too long."
+		},
+		
+		"noFilesInTable": {
+			"Japanese": "データはありません。",
+			"English": "データはありません。"
+		},
+		"noData": {
+			"Japanese": "check_box",
+			"English": "check_box"
+		},
+		"renameMorethan84": {
+			"Japanese": "フォルダー名・ファイル名またはパスが長すぎます。",
+			"English": "フォルダー名・ファイル名またはパスが長すぎます。"
+		},
+		"renameInvalid": {
+			"Japanese": "フォルダー名・ファイル名が不正です。(406)",
+			"English": "フォルダー名・ファイル名が不正です。(406)"
+		},
+		"fileNamepathTooLong": {
+			"Japanese": "ファイル名またはパスが長すぎます。",
+			"English": "ファイル名またはパスが長すぎます。"
+		},
+		"TempFileStorage": {
+			"Japanese": "ファイルの一時保存先",
+			"English": "ファイルの一時保存先"
+		},
+		"SharedfileFilename": {
+			"Japanese": "File1.jpg",
+			"English": "File1.jpg"
+		},
+		"Sharethefile": {
+			"Japanese": "ファイルを共有します。",
+			"English": "ファイルを共有します。"
+		},
+		"Storageperiod": {
+			"Japanese": "保存期限",
+			"English": "保存期限"
+		},
+		"Downloadpasswordlabel": {
+			"Japanese": "ダウンロード用パスワード",
+			"English": "ダウンロード用パスワード"
+		},
+		"Maximumdownloads": {
+			"Japanese": "最大ダウンロード回数",
+			"English": "最大ダウンロード回数"
+		},
+		"Cancelbtn": {
+			"Japanese": "キャンセル",
+			"English": "キャンセル"
+		},
+		
+		"sharebtn": {
+			"Japanese": "共有",
+			"English": "共有"
+		},
+		
+		"URLONSuccessShareFile": {
+			"Japanese": "",
+			"English": ""
+		},
+		
+		"downloadedErrormessage": {
+			"Japanese": "ファイルのダウンロードに失敗しました。パスワードをご確認ください。",
+			"English": "ファイルのダウンロードに失敗しました。パスワードをご確認ください。"
+		},
+		
+		"downloadPassword": {
+			"Japanese": "abcd@1234",
+			"English": "abcd@1234"
+		},
+		
+		"downloadedOnce": {
+			"Japanese": "1/10（ダウンロード回数/最大ダウンロード回数）",
+			"English": "1/10（ダウンロード回数/最大ダウンロード回数）"
+		},
+		
+		"ToolTipURLONSuccessShareFile": {
+			"Japanese": "",
+			"English": ""
+		},
+		
+		"FilenameONSuccessShareFile": {
+			"Japanese": "上記のリンクから File1.jpg をダウンロードすることができます。",
+			"English": "上記のリンクから File1.jpg をダウンロードすることができます。"
+		},
+		
+		"DownloadpasswordErrormsg": {
+			"Japanese": "※4~16桁の半角英数字・記号を入力してください。",
+			"English": "※4~16桁の半角英数字・記号を入力してください。"
+		},
+		
+		"NumberOfTimesRadio": {
+			"Japanese": "24",
+			"English": "24"
+		},
+		
+		
+		"MaximumdownloadscountbyDefault": {
+			"Japanese": "10",
+			"English": "10"
+		},
+		
+		"getErrorMsgMaximumdownloads": {
+			"Japanese": "※1から99までの数字を入力してください。",
+			"English": "※1から99までの数字を入力してください。"
+		},
+		"getErrorMsgInDays": {
+			"Japanese": "※1から30までの数字を入力してください。",
+			"English": "※1から30までの数字を入力してください。"
+		},
+		
+		"getErrorMsgInTime": {
+			"Japanese": "※1から72までの数字を入力してください。",
+			"English": "※1から72までの数字を入力してください。"
+		},
+		
+		"downloadCount": {
+			"Japanese": "ダウンロード回数は 10 です。",
+			"English": "ダウンロード回数は 10 です。"
+		},
+		
+		"There are no subfolders.": {
+			"Japanese": "サブフォルダーはありません。",
+			"English": "サブフォルダーはありません。"
+		},
+		
+		"NumberOfDaysRadio": {
+			"Japanese": "7",
+			"English": "7"
+		}
+	}
+}

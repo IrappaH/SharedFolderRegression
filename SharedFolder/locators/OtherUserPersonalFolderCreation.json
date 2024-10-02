@@ -1,0 +1,60 @@
+{
+	"elements": {
+		"createNewFolderLbl": {
+			"chrome": {
+				"xpath": "//div[(@class='v-card__title left')]/font/font"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='v-card__title left')]/font/font"
+			},
+			"edge": {
+				"xpath": "//div[(@class='v-card__title left')]/font/font"
+			},
+			"safari": {
+				"xpath": "//div[(@class='v-card__title left')]/font/font"
+			}
+		},
+		"createNewFolderTxtBox": {
+			"chrome": {
+				"xpath": "(//input[@class='v-field__input'])[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//input[(@type='text')]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//input[(@type='text')]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//input[(@type='text')]"
+			}
+		},
+		"cancelBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//span[(@class='v-btn__content')])[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//span[(@class='v-btn__content')])[1]"
+			},
+			"edge": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//span[(@class='v-btn__content')])[1]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//span[(@class='v-btn__content')])[1]"
+			}
+		},
+		"okBtn": {
+			"chrome": {
+				"xpath": "//span[.=' OK']"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//span[(@class='v-btn__content')])[2]"
+			},
+			"edge": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//span[(@class='v-btn__content')])[2]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-dialog v-dialog--active v-dialog--persistent')]//span[(@class='v-btn__content')])[2]"
+			}
+		}
+	}
+}

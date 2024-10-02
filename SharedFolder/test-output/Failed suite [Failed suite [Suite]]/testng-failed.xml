@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)(failed)(failed)">
+    <parameter name="configfile" value="properties\chrome\config.properties"/>
+    <classes>
+      <class name="test.script.RenameOtherUserPersonalFolderTest">
+        <methods>
+          <include name="processTestContext"/>
+          <include name="verifyFileIsRenameWithHiraganaMultiByte"/>
+          <include name="verifyFolderIsEmpty"/>
+          <include name="verifyFileIsRenameWithEnglishSinlgeByte"/>
+          <include name="configureSuite"/>
+          <include name="verifyFileIsRenameWithKanjiMultiByte"/>
+          <include name="verifyFileIsRenameWithNumberSinlgeByte"/>
+          <include name="verifyFileIsRenameWithNumberMultiByte"/>
+          <include name="setupClassCommonSteps"/>
+          <include name="verifyFileIsRenameWithKataganaMultiByte"/>
+          <include name="verifyFileIsRenameWithSpecialcharsMultiByte"/>
+          <include name="deleteAllFolders"/>
+          <include name="verifyFileIsRenameWithEnglishMultiByte"/>
+          <include name="verifyFileIsRenameWithKataganaSinlgeByte"/>
+          <include name="tearDown"/>
+          <include name="startApplication"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- test.script.RenameOtherUserPersonalFolderTest -->
+    </classes>
+  </test> <!-- Test1(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

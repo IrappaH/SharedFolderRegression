@@ -1,0 +1,102 @@
+{
+	"elements": {
+		"loginLbl": {
+			"chrome": {
+				"xpath": "//div[(@id='main-header')]/div"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='main-header')]/div"
+			},
+			"msedge": {
+				"xpath": "//div[(@id='main-header')]/div"
+			},
+			"safari": {
+				"xpath": "//div[(@id='main-header')]/div"
+			}
+		},
+		"userNameLbl": {
+			"chrome": {
+				"xpath": "//label[(@id='lblUserName')]"
+			},
+			"fireFox": {
+				"xpath": "//label[(@id='lblUserName')]"
+			},
+			"msedge": {
+				"xpath": "//label[(@id='lblUserName')]"
+			},
+			"safari": {
+				"xpath": "//label[(@id='lblUserName')]"
+			}
+		},
+		"userNameTxtBox": {
+			"chrome": {
+				"xpath": "//input[(@name='UserName')]"
+			},
+			"fireFox": {
+				"xpath": "//input[(@name='UserName')]"
+			},
+			"msedge": {
+				"xpath": "//input[(@name='UserName')]"
+			},
+			"safari": {
+				"xpath": "//input[(@name='UserName')]"
+			}
+		},
+		"passwordLbl": {
+			"chrome": {
+				"xpath": "//label[(@id='lblPassword')]"
+			},
+			"fireFox": {
+				"xpath": "//label[(@id='lblPassword')]"
+			},
+			"msedge": {
+				"xpath": "//label[(@id='lblPassword')]"
+			},
+			"safari": {
+				"xpath": "//label[(@id='lblPassword')]"
+			}
+		},
+		"passwordTxtbox": {
+			"chrome": {
+				"xpath": "//input[(@name='Password')]"
+			},
+			"fireFox": {
+				"xpath": "//input[(@name='Password')]"
+			},
+			"msedge": {
+				"xpath": "//input[(@name='Password')]"
+			},
+			"safari": {
+				"xpath": "//input[(@name='Password')]"
+			}
+		},
+		"loginBtn": {
+			"chrome": {
+				"xpath": "//input[(@class='to-button')]"
+			},
+			"fireFox": {
+				"xpath": "//input[(@class='to-button')]"
+			},
+			"msedge": {
+				"xpath": "//input[(@class='to-button')]"
+			},
+			"safari": {
+				"xpath": "//input[(@class='to-button')]"
+			}
+		},
+		"errorMsg": {
+			"chrome": {
+				"xpath": "//div[(@id='ErrorMsg')]//li"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='ErrorMsg')]//li"
+			},
+			"msedge": {
+				"xpath": "//div[(@id='ErrorMsg')]//li"
+			},
+			"safari": {
+				"xpath": "//div[(@id='ErrorMsg')]//li"
+			}
+		}
+	}
+} 

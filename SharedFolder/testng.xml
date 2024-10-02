@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite" parallel="tests" thread-count="1"> -->
+ <suite name="Suite" >
+
+<test name="Chrome">
+
+		<parameter name="configfile"
+			value="properties\chrome\config.properties" />
+		<!-- <parameter name="osconfigfile" value="properties\osconfig.properties"/> -->
+		<!-- <parameter name="port" value="6443" /> -->
+		<classes>
+			<class name="test.script.CreateFolderInPersonalRootFolder" />
+
+			
+		</classes>
+	</test> 
+
+ <!-- <test name="Edge">
+
+		<parameter name="configfile"
+			value="properties\edge\config.properties" />
+		<parameter name="osconfigfile"
+			value="properties\osconfig.properties" />
+		<parameter name="port" value="7443" />
+		<classes>
+			<class name="test.script.Sample" />
+			
+		</classes>
+	</test> -->
+	
+	 <!--		<test name="firefox">
+
+		<parameter name="configfile"
+			value="properties\firefox\config.properties" />
+		<parameter name="osconfigfile"
+			value="properties\osconfig.properties" />
+		<parameter name="port" value="8443" />
+		<classes>
+			<class name="test.script.Sample" />
+			
+		</classes>
+	</test>  -->
+</suite> <!-- Suite -->

@@ -1,0 +1,28 @@
+{
+	"elements": {
+		"LoginLbl": {
+			"Xpath": "//div[text()='Login']"
+		},"IDLbl": {
+			"Xpath": "//LABEL[@id='lblUserName']"
+		},"IDTxtbox": {
+			"Xpath": "//INPUT[@id='UserName']"
+		},"PasswordLbl": {
+			"Xpath": "//LABEL[@id='lblPassword']"
+		},"PasswordTxtbox": {
+			"Xpath": "//INPUT[@id='Password']"
+		},"LoginBtn": {
+			"Xpath": "//INPUT[@id='btnLogin']"
+		},
+		"UpdateBtn": {
+			"Xpath": "//H3[@data-v-4e759320=''][text()='概要']"
+		},
+		"ErrorMsg1": {
+			"Xpath": "//LI[text()='You have entered an incorrect UserID or Password .']"
+		},
+		"ErrorMsg": {
+			"Xpath": "//li[contains(text(),'You have')]"
+		}
+		
+		
+	}
+}

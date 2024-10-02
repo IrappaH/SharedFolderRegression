@@ -1,0 +1,424 @@
+{
+	"elements": {
+		"homeLink": {
+			"chrome": {
+				"xpath": "//a[(@class='router-link-exact-active router-link-active')]"
+			},
+			"fireFox": {
+				"xpath": "//a[(@class='router-link-exact-active router-link-active')]"
+			},
+			"msedge": {
+				"xpath": "//a[(@class='router-link-active')]"
+			},
+			"safari": {
+				"xpath": "//a[(@class='router-link-active')]"
+			}
+		},
+		"searchTxtBox": {
+			"chrome": {
+				"xpath": "//input[(@id='searchword')]"
+			},
+			"fireFox": {
+				"xpath": "//input[(@id='searchword')]"
+			},
+			"msedge": {
+				"xpath": "//input[(@id='searchword')]"
+			},
+			"safari": {
+				"xpath": "//input[(@id='searchword')]"
+			}
+		},
+		"searchButton": {
+			"chrome": {
+				"xpath": "//button[contains(@class,'search_btn ')and contains(@class,'v-btn--has-bg v-btn--tile theme--light v-size--default')]"
+			},
+			"fireFox": {
+				"xpath": "//button[contains(@class,'search_btn ')and contains(@class,'v-btn--has-bg v-btn--tile theme--light v-size--default')]"
+			},
+			"msedge": {
+				"xpath": "//button[contains(@class,'search_btn ')and contains(@class,'v-btn--has-bg v-btn--tile theme--light v-size--default')]"
+			},
+			"safari": {
+				"xpath": "//button[contains(@class,'search_btn ')and contains(@class,'v-btn--has-bg v-btn--tile theme--light v-size--default')]"
+			}
+		},
+		"returnBtn": {
+			"chrome": {
+				"xpath": "(//span[contains(@class,'v-btn__content')])[3]"
+			},
+			"fireFox": {
+				"xpath": "(//span[contains(@class,'v-btn__content')])[3]"
+			},
+			"msedge": {
+				"xpath": "(//span[contains(@class,'v-btn__content')])[3]"
+			},
+			"safari": {
+				"xpath": "(//span[contains(@class,'v-btn__content')])[3]"
+			}
+		},
+		"searchResultStr": {
+			"chrome": {
+				"xpath": "//h3[text()='検索結果']"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='container container--fluid')]//h3"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='container container--fluid')]//h3"
+			},
+			"safari": {
+				"xpath": "//div[(@class='container container--fluid')]//h3"
+			}
+		},
+		"downloadBtn": {
+			"chrome": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			}
+		},
+		"deleteBtn": {
+			"chrome": {
+				"xpath": "//div[(@class='download-btns')]/button[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[2]"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='download-btns')]/button[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[2]"
+			}
+		},
+		"topDropDownBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-input__append-inner')]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-input__append-inner')]"
+			},
+			"msedge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-input__append-inner')]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-input__append-inner')]"
+			}
+		},
+		"topDropDownList": {
+			"chrome": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"safari": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			}
+		},
+		"topPagination": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__pagination')]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__pagination')]"
+			},
+			"msedge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__pagination')]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__pagination')]"
+			}
+		},
+		"topStatingPageBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"msedge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			}
+		},
+		"topDeforePageBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"msedge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			}
+		},
+		"topEndingPageBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"msedge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			}
+		},
+		"topAfterPageBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"msedge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			}
+		},
+		"selectAllCheckBox": {
+			"chrome": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"fireFox": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"msedge": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"safari": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			}
+		},
+		"headerList": {
+			"chrome": {
+				"xpath": "//th[starts-with(@class,'text-start')]"
+			},
+			"fireFox": {
+				"xpath": "//th[starts-with(@class,'text-start')]"
+			},
+			"msedge": {
+				"xpath": "//th[starts-with(@class,'text-start')]"
+			},
+			"safari": {
+				"xpath": "//th[starts-with(@class,'text-start')]"
+			}
+		},
+		"checkBoxList": {
+			"chrome": {
+				"xpath": "//td//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"fireFox": {
+				"xpath": "//td//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"msedge": {
+				"xpath": "//td//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"safari": {
+				"xpath": "//td//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			}
+		},
+		"nameList": {
+			"chrome": {
+				"xpath": "//tr//td[3]"
+			},
+			"fireFox": {
+				"xpath": "//tr//td[3]"
+			},
+			"msedge": {
+				"xpath": "//tr//td[3]"
+			},
+			"safari": {
+				"xpath": "//tr//td[3]"
+			}
+		},
+		"sizeList": {
+			"chrome": {
+				"xpath": "//tr//td[4]"
+			},
+			"fireFox": {
+				"xpath": "//tr//td[4]"
+			},
+			"msedge": {
+				"xpath": "//tr//td[4]"
+			},
+			"safari": {
+				"xpath": "//tr//td[4]"
+			}
+		},
+		"updatedDateAndtimeList": {
+			"chrome": {
+				"xpath": "//tr//td[5]"
+			},
+			"fireFox": {
+				"xpath": "//tr//td[5]"
+			},
+			"msedge": {
+				"xpath": "//tr//td[5]"
+			},
+			"safari": {
+				"xpath": "//tr//td[5]"
+			}
+		},
+		"menuButtonList": {
+			"chrome": {
+				"xpath": "//div[contains(@style,'3dots.svg')]"
+			},
+			"fireFox": {
+				"xpath": "//div[contains(@style,'3dots.svg')]"
+			},
+			"msedge": {
+				"xpath": "//div[contains(@style,'3dots.svg')]"
+			},
+			"safari": {
+				"xpath": "//div[contains(@style,'3dots.svg')]"
+			}
+		},
+		"firstRowMenuBtn": {
+			"chrome": {
+				"xpath": "(//div[contains(@style,'3dots.svg')])[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[contains(@style,'3dots.svg')])[1]"
+			},
+			"msedge": {
+				"xpath": "(//div[contains(@style,'3dots.svg')])[1]"
+			},
+			"safari": {
+				"xpath": "(//div[contains(@style,'3dots.svg')])[1]"
+			}
+		},
+		"rowMenuList": {
+			"chrome": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__title')]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__title')]"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__title')]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__title')]"
+			}
+		},
+		"footerDropDownBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@role='button')]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@role='button')]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@role='button')]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@role='button')]"
+			}
+		},
+		"footerDropDownList": {
+			"chrome": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"msedge": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"safari": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			}
+		},
+		"footerPagination": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__pagination')]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__pagination')]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__pagination')]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__pagination')]"
+			}
+		},
+		"footerStatingPageBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			}
+		},
+		"footerDeforePageBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			}
+		},
+		"footerEndingPageBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			}
+		},
+		"footerAfterPageBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"msedge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"elements": {
+		"MFPPageTitle": {
+			"Xpath": "//TH[@colspan='4'][text()='è¤‡å�ˆæ©Ÿ : FriendlyName 0 ã�®æƒ…å ±']"
+		}
+	}
+}

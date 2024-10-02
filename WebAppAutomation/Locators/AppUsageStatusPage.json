@@ -1,0 +1,8 @@
+{
+  "versionApplicationUsageStatusMonthlyUsageAmt " : {
+    "Xpath" : "//TH[@colspan='4'][text()='PC版アプリケーション利用状況 (△月利用分）']"
+  },
+  "MobileVersionApplicationUsageStatusMontlyUsageamt " : {
+    "Xpath" : "//TH[@colspan='4'][text()='モバイル版アプリケーション利用状況 (△月利用分）']"
+  }
+}

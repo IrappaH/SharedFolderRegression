@@ -1,0 +1,485 @@
+<html>
+<head>
+<title>TestNG:  Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>81/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 14 14:49:14 JST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>1272 seconds (1272953 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForaux()'><b>verifyErrorMsgIsDisplayedForaux</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLPT9()'><b>verifyErrorMsgIsDisplayedForLPT9</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForNUL()'><b>verifyErrorMsgIsDisplayedForNUL</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForlpt4()'><b>verifyErrorMsgIsDisplayedForlpt4</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcom7()'><b>verifyErrorMsgIsDisplayedForcom7</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCLOCK$()'><b>verifyErrorMsgIsDisplayedForCLOCK$</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForAUX()'><b>verifyErrorMsgIsDisplayedForAUX</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForSNAPSHOTS()'><b>verifyErrorMsgIsDisplayedForSNAPSHOTS</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCON()'><b>verifyErrorMsgIsDisplayedForCON</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForSnapshot()'><b>verifyErrorMsgIsDisplayedForSnapshot</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcom8()'><b>verifyErrorMsgIsDisplayedForcom8</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForGreaterThan()'><b>verifyErrorMsgIsDisplayedForGreaterThan</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForclock$()'><b>verifyErrorMsgIsDisplayedForclock$</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLPT0()'><b>verifyErrorMsgIsDisplayedForLPT0</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedFornul()'><b>verifyErrorMsgIsDisplayedFornul</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCOM0()'><b>verifyErrorMsgIsDisplayedForCOM0</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForNameEndindWithDot()'><b>verifyErrorMsgIsDisplayedForNameEndindWithDot</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcom9()'><b>verifyErrorMsgIsDisplayedForcom9</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLPT8()'><b>verifyErrorMsgIsDisplayedForLPT8</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForlpt2()'><b>verifyErrorMsgIsDisplayedForlpt2</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForprn()'><b>verifyErrorMsgIsDisplayedForprn</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForlpt7()'><b>verifyErrorMsgIsDisplayedForlpt7</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcom5()'><b>verifyErrorMsgIsDisplayedForcom5</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCOM4()'><b>verifyErrorMsgIsDisplayedForCOM4</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verify84LengthHiraganaCharFolderIsCreatedMultiByte()'><b>verify84LengthHiraganaCharFolderIsCreatedMultiByte</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForQuestionMark()'><b>verifyErrorMsgIsDisplayedForQuestionMark</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verify84LengthEngCharFolderIsCreatedMultiByte()'><b>verify84LengthEngCharFolderIsCreatedMultiByte</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLPT1()'><b>verifyErrorMsgIsDisplayedForLPT1</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForremote_access_backup()'><b>verifyErrorMsgIsDisplayedForremote_access_backup</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCOM5()'><b>verifyErrorMsgIsDisplayedForCOM5</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForlpt5()'><b>verifyErrorMsgIsDisplayedForlpt5</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCOM8()'><b>verifyErrorMsgIsDisplayedForCOM8</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifySpecialCharFolderIsCreated()'><b>verifySpecialCharFolderIsCreated</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verify84LengthKatakanaCharFolderIsCreatedMultiByte()'><b>verify84LengthKatakanaCharFolderIsCreatedMultiByte</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForBackSlash()'><b>verifyErrorMsgIsDisplayedForBackSlash</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verify84LengthKanjiCharFolderIsCreatedMultiByte()'><b>verify84LengthKanjiCharFolderIsCreatedMultiByte</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForlpt3()'><b>verifyErrorMsgIsDisplayedForlpt3</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForFontSlash()'><b>verifyErrorMsgIsDisplayedForFontSlash</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForColon()'><b>verifyErrorMsgIsDisplayedForColon</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForNameStartingWithHalfWidthSpace()'><b>verifyErrorMsgIsDisplayedForNameStartingWithHalfWidthSpace</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCOM2()'><b>verifyErrorMsgIsDisplayedForCOM2</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForPipe()'><b>verifyErrorMsgIsDisplayedForPipe</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcom1()'><b>verifyErrorMsgIsDisplayedForcom1</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcom2()'><b>verifyErrorMsgIsDisplayedForcom2</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForlpt9()'><b>verifyErrorMsgIsDisplayedForlpt9</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCOM6()'><b>verifyErrorMsgIsDisplayedForCOM6</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForDoubleQuotes()'><b>verifyErrorMsgIsDisplayedForDoubleQuotes</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcom0()'><b>verifyErrorMsgIsDisplayedForcom0</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcom3()'><b>verifyErrorMsgIsDisplayedForcom3</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verify84LengthEngCharFolderIsCreatedSingleByte()'><b>verify84LengthEngCharFolderIsCreatedSingleByte</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verify84LengthKatakanaCharFolderIsCreatedSingleByte()'><b>verify84LengthKatakanaCharFolderIsCreatedSingleByte</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLPT2()'><b>verifyErrorMsgIsDisplayedForLPT2</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForPRN()'><b>verifyErrorMsgIsDisplayedForPRN</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForsnapshot()'><b>verifyErrorMsgIsDisplayedForsnapshot</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCOM3()'><b>verifyErrorMsgIsDisplayedForCOM3</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCOM7()'><b>verifyErrorMsgIsDisplayedForCOM7</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedFortrashbox()'><b>verifyErrorMsgIsDisplayedFortrashbox</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForlpt1()'><b>verifyErrorMsgIsDisplayedForlpt1</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLPT3()'><b>verifyErrorMsgIsDisplayedForLPT3</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForNameEndingWithHalfWidthSpace()'><b>verifyErrorMsgIsDisplayedForNameEndingWithHalfWidthSpace</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcom4()'><b>verifyErrorMsgIsDisplayedForcom4</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcom6()'><b>verifyErrorMsgIsDisplayedForcom6</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForcon()'><b>verifyErrorMsgIsDisplayedForcon</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verify84LengthKanjiCharFolderIsCreatedSingleByte()'><b>verify84LengthKanjiCharFolderIsCreatedSingleByte</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForSNAPSHOT()'><b>verifyErrorMsgIsDisplayedForSNAPSHOT</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLPT4()'><b>verifyErrorMsgIsDisplayedForLPT4</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForlpt6()'><b>verifyErrorMsgIsDisplayedForlpt6</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForMultiplication()'><b>verifyErrorMsgIsDisplayedForMultiplication</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyFolderIsCreated()'><b>verifyFolderIsCreated</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLPT7()'><b>verifyErrorMsgIsDisplayedForLPT7</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLPT5()'><b>verifyErrorMsgIsDisplayedForLPT5</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForlpt8()'><b>verifyErrorMsgIsDisplayedForlpt8</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForTRASHBOX()'><b>verifyErrorMsgIsDisplayedForTRASHBOX</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForlpt0()'><b>verifyErrorMsgIsDisplayedForlpt0</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForsnapshots()'><b>verifyErrorMsgIsDisplayedForsnapshots</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedFortrashBox()'><b>verifyErrorMsgIsDisplayedFortrashBox</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForREMOTE_ACCESS_BACKUP()'><b>verifyErrorMsgIsDisplayedForREMOTE_ACCESS_BACKUP</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCOM1()'><b>verifyErrorMsgIsDisplayedForCOM1</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForCOM9()'><b>verifyErrorMsgIsDisplayedForCOM9</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLessThan()'><b>verifyErrorMsgIsDisplayedForLessThan</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+<tr>
+<td title='test.script.CreateFolderInPersonalSubFolder.verifyErrorMsgIsDisplayedForLPT6()'><b>verifyErrorMsgIsDisplayedForLPT6</b><br>Test class: test.script.CreateFolderInPersonalSubFolder</td>
+<td></td>
+<td>4</td>
+<td>test.script.CreateFolderInPersonalSubFolder@2cd76f31</td></tr>
+</table><p>
+</body>
+</html>

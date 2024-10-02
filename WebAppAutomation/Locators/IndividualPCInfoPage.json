@@ -1,0 +1,7 @@
+{
+	"elements": {
+		"1stPCInfoTable": {
+			"Xpath": "//table[@id='pc-table-id'])[1]"
+		}
+	}
+}

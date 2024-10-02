@@ -1,0 +1,30 @@
+{
+  "SoftwareSecurityBar" : {
+    "Xpath" : "(//SPAN[@class='PCAgentSecuritybar'][text()='4台'][text()='4台'])[2]"
+  },
+  "DarkBlueColor" : {
+    "Xpath" : "(//SPAN[@class='bar ml-1'])[1]"
+  },
+  "SoftwareInstalledLable" : {
+    "Xpath" : "//SPAN[@class='ml-3'][text()='ソフト導入']"
+  },
+  "OSStandardColor" : {
+    "Xpath" : "(//SPAN[@class='bar ml-1'])[2]"
+  },
+  "OSStandardColorLable" : {
+    "Xpath" : "//SPAN[@class='ml-3'][text()='OS標準ソフト']"
+  },
+  "NotInstalledColor" : {
+    "Xpath" : "(//SPAN[@class='bar ml-1'])[3]"
+  },
+  "PC-Header" : {
+    "Xpath" : "//TH[@scope='col'][text()='PC名']"
+  },
+  "Window-Header" : {
+    "Xpath" : "//TH[@colspan='1'][text()='Windowsバージョン']"
+  },
+  "SecuritySoftware-Header" : {
+    "Xpath" : "//TH[@colspan='1'][text()='導入セキュリティソフト']"
+  }
+  
+}

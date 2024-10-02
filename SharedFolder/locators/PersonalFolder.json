@@ -1,0 +1,1332 @@
+{
+	"elements": {
+		"homeLink": {
+			"chrome": {
+				"xpath": "//a[text()='ホーム']"
+			}
+		},
+		
+		
+		
+		"checkReturnBtn": {
+			"chrome": {
+				"xpath": "(//span[text()='戻る'])[2]"
+			},
+			"fireFox": {
+				"xpath": "(//span[text()='戻る'])[2]"
+			},
+			"edge": {
+				"xpath": "(//img[@src='/storage/shr/images/3dots.svg'])[2]"
+			}
+		},
+		"fileOperationMenu": {
+			"chrome": {
+				"xpath": "(//img[@src='/storage/shr/images/3dots.svg'])[2]"
+			},
+			"fireFox": {
+				"xpath": "(//img[@src='/storage/shr/images/3dots.svg'])[2]"
+			},
+			"edge": {
+				"xpath": "(//img[@src='/storage/shr/images/3dots.svg'])[2]"
+			}
+		},
+		
+		"getSharedFileDetailsHeader": {
+			"chrome": {
+				"xpath": "//div[text()='File1.jpg']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='File1.jpg']"
+			},
+			"edge": {
+				"xpath": "//div[text()='File1.jpg']"
+			}
+		},
+		
+		"getSharedFilesDownloadpasswordLabel": {
+			"chrome": {
+				"xpath": "//p[text()='ダウンロード用パスワード']"
+			},
+			"fireFox": {
+				"xpath": "//p[text()='ダウンロード用パスワード']"
+			},
+			"edge": {
+				"xpath": "//p[text()='ダウンロード用パスワード']"
+			}
+		},
+		
+		"getErrorMsgTimes": {
+			"chrome": {
+				"xpath": "//div[text()='※1から72までの数字を入力してください。']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='※1から72までの数字を入力してください。']"
+			},
+			"edge": {
+				"xpath": "//div[text()='※1から72までの数字を入力してください。']"
+			}
+		},
+		
+		"getErrorMsgDays": {
+			"chrome": {
+				"xpath": "//div[text()='※1から30までの数字を入力してください。']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='※1から30までの数字を入力してください。']"
+			},
+			"edge": {
+				"xpath": "//div[text()='※1から30までの数字を入力してください。']"
+			}
+		},
+			"getNumberOfDaysFromRadioBtn": {
+			"chrome": {
+				"xpath": "//input[@type='number' and @min='1' and @max='30' and @value='7']"
+			},
+			"fireFox": {
+				"xpath": "//input[@type='number' and @min='1' and @max='30' and @value='7']"
+			},
+			"edge": {
+				"xpath": "//input[@type='number' and @min='1' and @max='30' and @value='7']"
+			}
+		},
+		
+		"getSharedFilesTimeRadiobtn": {
+			"chrome": {
+				"xpath": "//input[@type='number' and @min='1' and @max='72' and @value='24']"
+			},
+			"fireFox": {
+				"xpath": "//input[@type='number' and @min='1' and @max='72' and @value='24']"
+			},
+			"edge": {
+				"xpath": "//input[@type='number' and @min='1' and @max='72' and @value='24']"
+			}
+		},
+		
+		"downloadCountfromOnSuccessMessage": {
+			"chrome": {
+				"xpath": "(//div[@class='text-msg']/p)[4]"
+			},
+			"fireFox": {
+				"xpath": "(//div[@class='text-msg']/p)[4]"
+			},
+			"edge": {
+				"xpath": "(//div[@class='text-msg']/p)[4]"
+			}
+		},
+		
+		"expirationDate": {
+			"chrome": {
+				"xpath": "(//div[@class='text-msg']/p)[2]"
+			},
+			"fireFox": {
+				"xpath": "(//div[@class='text-msg']/p)[2]"
+			},
+			"edge": {
+				"xpath": "(//div[@class='text-msg']/p)[2]"
+			}
+		},
+		
+		
+			"getURLFromtooltipsSharedFileOnSuccess": {
+			"chrome": {
+				"xpath": "(//div[@class='v-card-text']/div/div)[2]"
+			},
+			"fireFox": {
+				"xpath": "(//div[@class='v-card-text']/div/div)[2]"
+			},
+			"edge": {
+				"xpath": "(//div[@class='v-card-text']/div/div)[2]"
+			}
+		},
+		
+		
+		"getFileSize": {
+			"chrome": {
+				"xpath": "(//td)[19]"
+			},
+			"fireFox": {
+				"xpath": "(//td)[19]"
+			},
+			"edge": {
+				"xpath": "(//td)[19]"
+			}
+		},
+		
+		"getFileNamefromRow": {
+			"chrome": {
+				"xpath": "(//td)[17]"
+			},
+			"fireFox": {
+				"xpath": "(//td)[17]"
+			},
+			"edge": {
+				"xpath": "//p[text()=' 上記のリンクから File1.jpg をダウンロードすることができます。 ']"
+			}
+		},
+		
+		
+		"GetDownloadText": {
+			"chrome": {
+				"xpath": "//input[@onclick='onDownloadBtn()']"
+			}
+			},
+		"OpenNewTab": {
+			"chrome": {
+				"xpath": "//body"
+			}
+			},
+		
+		"getdownloadCount": {
+			"chrome": {
+				"xpath": "//span[@id='downloadCount']"
+			},
+			"fireFox": {
+				"xpath": "//span[@id='downloadCount']"
+			},
+			"edge": {
+				"xpath": "//p[text()=' 上記のリンクから File1.jpg をダウンロードすることができます。 ']"
+			}
+		},
+		
+		"getFileSizeFromFileInfo": {
+			"chrome": {
+				"xpath": "//span[text()='19.16 KB']"
+			},
+			"fireFox": {
+				"xpath": "//span[text()='19.16 KB']"
+			},
+			"edge": {
+				"xpath": "//p[text()=' 上記のリンクから File1.jpg をダウンロードすることができます。 ']"
+			}
+		},
+		
+		"getFileNameFromFileInfo": {
+			"chrome": {
+				"xpath": "//span[text()='File1.jpg']"
+			},
+			"fireFox": {
+				"xpath": "//span[text()='File1.jpg']"
+			},
+			"edge": {
+				"xpath": "//p[text()=' 上記のリンクから File1.jpg をダウンロードすることができます。 ']"
+			}
+		},
+		
+			"getFileName": {
+			"chrome": {
+				"xpath": "//p[text()=' 上記のリンクから File1.jpg をダウンロードすることができます。 ']"
+			},
+			"fireFox": {
+				"xpath": "//p[text()=' 上記のリンクから File1.jpg をダウンロードすることができます。 ']"
+			},
+			"edge": {
+				"xpath": "//p[text()=' 上記のリンクから File1.jpg をダウンロードすることができます。 ']"
+			}
+		},
+		
+		"getURLFromSharedFileOnSuccess": {
+			"chrome": {
+				"xpath": "(//div[@class='v-card-text']/div/div)[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[@class='v-card-text']/div/div)[1]"
+			},
+			"edge": {
+				"xpath": "(//div[@class='v-card-text']/div/div)[1]"
+			}
+		},
+		
+		"ClickOKButton": {
+			"chrome": {
+				"xpath": "//input[@id='passwordOk']"
+			},
+			"fireFox": {
+				"xpath": "//input[@id='passwordOk']"
+			},
+			"edge": {
+				"xpath": "//input[@id='passwordOk']"
+			}
+		},
+		"enterPassworToDownload": {
+			"chrome": {
+				"xpath": "//input[@id='inputPassword']"
+			},
+			"fireFox": {
+				"xpath": "//input[@id='inputPassword']"
+			},
+			"edge": {
+				"xpath": "//input[@id='inputPassword']"
+			}
+		},
+		
+		"enterPassword": {
+			"chrome": {
+				"xpath": "//input[@placeholder='4~16桁の半角英数字・記号']"
+			},
+			"fireFox": {
+				"xpath": "//input[@placeholder='4~16桁の半角英数字・記号']"
+			},
+			"edge": {
+				"xpath": "//input[@placeholder='4~16桁の半角英数字・記号']"
+			}
+		},
+		
+		"getSharedFilesMaximumdownloadscountByDefault": {
+			"chrome": {
+				"xpath": "//input[@type='number' and @min='1' and @max='99' and @value='10']"
+			},
+			"fireFox": {
+				"xpath": "//input[@type='number' and @min='1' and @max='99' and @value='10']"
+			},
+			"edge": {
+				"xpath": "//input[@type='number' and @min='1' and @max='99' and @value='10']"
+			}
+		},
+		
+			"getNumberOfTimesFromRadioBtn": {
+			"chrome": {
+				"xpath": "(//input[@type='number'])[1]"
+			},
+			"fireFox": {
+				"xpath": "(//input[@type='number'])[1]"
+			},
+			"edge": {
+				"xpath": "(//input[@type='number'])[1]"
+			}
+		},
+		
+			"getNumberOfTimesRadioBtn": {
+			"chrome": {
+				"xpath": "//input[@aria-label='時間']"
+			},
+			"fireFox": {
+				"xpath": "//input[@aria-label='時間']"
+			},
+			"edge": {
+				"xpath": "//input[@aria-label='時間']"
+			}
+		},
+		
+		"getNumberOfDaysRadioBtn": {
+			"chrome": {
+				"xpath": "//input[@aria-label='日数']"
+			},
+			"fireFox": {
+				"xpath": "//input[@aria-label='日数']"
+			},
+			"edge": {
+				"xpath": "//input[@aria-label='日数']"
+			}
+		},
+		
+		"getPasswordErrorMsg": {
+			"chrome": {
+				"xpath": "//div[text()='※4~16桁の半角英数字・記号を入力してください。']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='※4~16桁の半角英数字・記号を入力してください。']"
+			},
+			"edge": {
+				"xpath": "//div[text()='※4~16桁の半角英数字・記号を入力してください。']"
+			}
+		},
+		"getSharedFilesCancelButtonLabel": {
+			"chrome": {
+				"xpath": "//span[text()='キャンセル']"
+			},
+			"fireFox": {
+				"xpath": "//span[text()='キャンセル']"
+			},
+			"edge": {
+				"xpath": "//span[text()='キャンセル']"
+			}
+		},
+		
+		"getSharedFilesMaximumdownloadsLabel": {
+			"chrome": {
+				"xpath": "//p[text()='最大ダウンロード回数']"
+			},
+			"fireFox": {
+				"xpath": "//p[text()='最大ダウンロード回数']"
+			},
+			"edge": {
+				"xpath": "//p[text()='最大ダウンロード回数']"
+			}
+		},
+		
+		"getSharedFilesStorageLabel": {
+			"chrome": {
+				"xpath": "//p[text()='保存期限']"
+			},
+			"fireFox": {
+				"xpath": "//p[text()='保存期限']"
+			},
+			"edge": {
+				"xpath": "//p[text()='保存期限']"
+			}
+		},
+		"getSharedFilesLabel": {
+			"chrome": {
+				"xpath": "//div[text()=' ファイルを共有します。 ']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()=' ファイルを共有します。 ']"
+			},
+			"edge": {
+				"xpath": "//div[text()=' ファイルを共有します。 ']"
+			}
+		},
+		
+		"folderOperationMenu": {
+			"chrome": {
+				"xpath": "//img[@src='/storage/shr/images/3dots.svg']"
+			},
+			"fireFox": {
+				"xpath": "//img[@src='/storage/shr/images/3dots.svg']"
+			},
+			"edge": {
+				"xpath": "//img[@src='/storage/shr/images/3dots.svg']"
+			}
+		},
+		"searchTxtBox": {
+			"chrome": {
+				"xpath": "//input[(@id='searchword')]"
+			},
+			"fireFox": {
+				"xpath": "//input[(@id='searchword')]"
+			},
+			"edge": {
+				"xpath": "//input[(@id='searchword')]"
+			},
+			"safari": {
+				"xpath": "//input[(@id='searchword')]"
+			}
+		},
+		"fileShare": {
+			"chrome": {
+				"xpath": "//div[text()='共有']"
+			},
+			"fireFox": {
+				"xpath": "//td[3]"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		"shareFileHeader": {
+			"chrome": {
+				"xpath": "//div[text()='ファイルの一時保存先']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='ファイルの一時保存先']"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		
+		"getErrorMessageFromSharedFilesMaximumdownloads": {
+			"chrome": {
+				"xpath": "//div[text()='※1から99までの数字を入力してください。']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='※1から99までの数字を入力してください。']"
+			},
+			"edge": {
+				"xpath": "//div[text()='※1から99までの数字を入力してください。']"
+			},
+			"safari": {
+				"xpath": "//div[text()='※1から99までの数字を入力してください。']"
+			}
+		},
+		
+		"closePasswordMessagedialog": {
+			"chrome": {
+				"xpath": "(//input[@value='キャンセル' and @type='button'])"
+			},
+			"fireFox": {
+				"xpath": "(//input[@value='キャンセル' and @type='button'])"
+			},
+			"edge": {
+				"xpath": "(//input[@value='キャンセル' and @type='button'])"
+			},
+			"safari": {
+				"xpath": "(//input[@value='キャンセル' and @type='button'])"
+			}
+		},
+		
+		"closeErrorMessagedialog": {
+			"chrome": {
+				"xpath": "(//input[@value='OK' and @type='button'])[2]"
+			},
+			"fireFox": {
+				"xpath": "(//input[@value='OK' and @type='button'])[2]"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		"getdownloadErrorMessage": {
+			"chrome": {
+				"xpath": "//span[text()='ファイルのダウンロードに失敗しました。パスワードをご確認ください。']"
+			},
+			"fireFox": {
+				"xpath": "//td[3]"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		"clickShareBtn": {
+			"chrome": {
+				"xpath": "//span[text()='共有']"
+			},
+			"fireFox": {
+				"xpath": "//td[3]"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		"selectFileMovetoSharedFolder": {
+			"chrome": {
+				"xpath": "//div[text()='共有フォルダー']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='共有フォルダー']"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		"selectFileMovetoOtherPersonalFolder": {
+			"chrome": {
+				"xpath": "//div[text()='個人フォルダー(test5 cocoro+2)']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='共有フォルダー']"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		"selectFileMovetoHome": {
+			"chrome": {
+				"xpath": "//span[text()=' ホーム > ']"
+			},
+			"fireFox": {
+				"xpath": "//span[text()=' ホーム > ']"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		"OpenCreatedFolder": {
+			"chrome": {
+				"xpath": "//TD[@data-v-b2a551a4=''][text()='AutoTest']"
+			},
+			"fireFox": {
+				"xpath": "//td[3]"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		"firstRowName": {
+			"chrome": {
+				"xpath": "//td[3]"
+			},
+			"fireFox": {
+				"xpath": "//td[3]"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		"rootFoldername": {
+			"chrome": {
+				"xpath": "//a[text()='個人フォルダー']"
+			},
+			"fireFox": {
+				"xpath": "//td[3]"
+			},
+			"edge": {
+				"xpath": "//td[3]"
+			},
+			"safari": {
+				"xpath": "//td[3]"
+			}
+		},
+		"searchButton": {
+			"chrome": {
+				"xpath": "//span[text()='検索']"
+			},
+			"fireFox": {
+				"xpath": "//button[contains(@class,'search_btn v-btn v-btn--')and contains(@class,'v-btn--has-bg v-btn--tile theme--light v-size--default')]"
+			},
+			"edge": {
+				"xpath": "//button[contains(@class,'search_btn v-btn v-btn--')and contains(@class,'v-btn--has-bg v-btn--tile theme--light v-size--default')]"
+			},
+			"safari": {
+				"xpath": "//button[contains(@class,'search_btn v-btn v-btn--')and contains(@class,'v-btn--has-bg v-btn--tile theme--light v-size--default')]"
+			}
+		},
+		"folderName": {
+			"chrome": {
+				"xpath": "//div[(@class='container container--fluid')]//h2"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='container container--fluid')]//h2"
+			},
+			"edge": {
+				"xpath": "//div[(@class='container container--fluid')]//h2"
+			},
+			"safari": {
+				"xpath": "//div[(@class='container container--fluid')]//h2"
+			}
+		},
+		"fileClose": {
+			"chrome": {
+				"xpath": "(//span[@class='v-btn__content']/i)[9]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			}
+		},
+		"openFilePreview": {
+			"chrome": {
+				"xpath": "//div[text()='プレビュー']"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			}
+		},
+		"downloadFrmContextBtn": {
+			"chrome": {
+				"xpath": "//div[text()='ダウンロード']"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			}
+		},
+		"renameInput": {
+			"chrome": {
+				"xpath": "(//input[@class='v-field__input'])[2]"
+			},
+			"fireFox": {
+				"xpath": "(//input[@class='v-field__input'])[2]"
+			},
+			"edge": {
+				"xpath": "(//input[@class='v-field__input'])[2]"
+			},
+			"safari": {
+				"xpath": "(//input[@class='v-field__input'])[2]"
+			}
+		},
+		"renameFromContextBtn": {
+			"chrome": {
+				"xpath": "//div[text()='名前を変更']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='名前を変更']"
+			},
+			"edge": {
+				"xpath": "//div[text()='名前を変更']"
+			},
+			"safari": {
+				"xpath": "//div[text()='名前を変更']"
+			}
+		},
+		"downloadBtn": {
+			"chrome": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[1]"
+			}
+		},
+		"breadcrumRoot": {
+			"chrome": {
+				"xpath": "//a[.='個人フォルダー']"
+			},
+			"fireFox": {
+				"xpath": "//a[.='個人フォルダー']"
+			},
+			"edge": {
+				"xpath": "//a[.='個人フォルダー']"
+			},
+			"safari": {
+				"xpath": "//a[.='個人フォルダー']"
+			}
+		},
+		"openRootFolder": {
+			"chrome": {
+				"xpath": "(//img[@class='v-img__img v-img__img--contain'])[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[@class='v-responsive__content'])[7]"
+			},
+			"edge": {
+				"xpath": "(//div[@class='v-responsive__content'])[7]"
+			},
+			"safari": {
+				"xpath": "(//div[@class='v-responsive__content'])[7]"
+			}
+		},
+		"changeSaveDestinationBtnFrmContext": {
+			"chrome": {
+				"xpath": "//div[text()='保存先の変更']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='保存先の変更']"
+			},
+			"edge": {
+				"xpath": "//div[text()='保存先の変更']"
+			},
+			"safari": {
+				"xpath": "//div[text()='保存先の変更']"
+			}
+		},
+		"SelectFolderInTheSameLevel": {
+			"chrome": {
+				"xpath": "//div[text()='AutoTest']"
+			},
+			"fireFox": {
+				"xpath": "//div[text()='保存先の変更']"
+			},
+			"edge": {
+				"xpath": "//div[text()='保存先の変更']"
+			},
+			"safari": {
+				"xpath": "//div[text()='保存先の変更']"
+			}
+		},
+		"changeSaveDestinationBtn": {
+			"chrome": {
+				"xpath": "//div[(@class='download-btns')]/button[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[2]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='download-btns')]/button[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[2]"
+			}
+		},
+		"deleteBtn": {
+			"chrome": {
+				"xpath": "//div[(@class='download-btns')]/button[3]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[3]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='download-btns')]/button[3]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[3]"
+			}
+		},
+		"deletefrmContext": {
+			"chrome": {
+				"xpath": "//div[text()='削除']"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[3]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='download-btns')]/button[3]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[3]"
+			}
+		},
+		"uploadBtn": {
+			"chrome": {
+				"xpath": "//div[(@class='download-btns')]/button[4]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[4]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='download-btns')]/button[4]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[4]"
+			}
+		},
+		"createNewFolderBtn": {
+			"chrome": {
+				"xpath": "//div[(@class='download-btns')]/button[5]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='download-btns')]/button[5]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='download-btns')]/button[5]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='download-btns')]/button[5]"
+			}
+		},
+		"topDropDownBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-input__append-inner')]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-input__append-inner')]"
+			},
+			"edge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-input__append-inner')]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-input__append-inner')]"
+			}
+		},
+		"topDropDownList": {
+			"chrome": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"edge": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"safari": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			}
+		},
+		"topPagination": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__pagination')]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__pagination')]"
+			},
+			"edge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__pagination')]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__pagination')]"
+			}
+		},
+		"topStatingPageBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"edge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			}
+		},
+		"topDeforePageBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"edge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			}
+		},
+		"topEndingPageBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"edge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			}
+		},
+		"topAfterPageBtn": {
+			"chrome": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"edge": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"safari": {
+				"xpath": "//div[(@id='d-table-header')]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			}
+		},
+		"waitNotToDisplay": {
+			"chrome": {
+				"xpath": "//div[contains(text(),'ァイルアップロード中')]"
+			},
+			"fireFox": {
+				"xpath": "//div[contains(text(),'ァイルアップロード中')]"
+			},
+			"edge": {
+				"xpath": "//div[contains(text(),'ァイルアップロード中')]"
+			},
+			"safari": {
+				"xpath": "//div[contains(text(),'ァイルアップロード中')]"
+			}
+		},
+		"operationMenu": {
+			"chrome": {
+				"xpath": "(//img[@src='/storage/shr/images/3dots.svg'])[2]"
+			},
+			"fireFox": {
+				"xpath": "//div[contains(text(),'ァイルアップロード中')]"
+			},
+			"edge": {
+				"xpath": "//div[contains(text(),'ァイルアップロード中')]"
+			},
+			"safari": {
+				"xpath": "//div[contains(text(),'ァイルアップロード中')]"
+			}
+		},
+		"selectAllCheckBox": {
+			"chrome": {
+				"xpath": "//th//div[(@class='v-selection-control__wrapper')]"
+			},
+			"fireFox": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"edge": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"safari": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			}
+		},
+		"selectSecondCheckBox": {
+			"chrome": {
+				"xpath": "(//tr[@class='v-data-table__tr v-data-table__tr--clickable'])[1]/td/div/div"
+			},
+			"fireFox": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"edge": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"safari": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			}
+		},
+		"selectSingleCheckBox": {
+			"chrome": {
+				"xpath": "(//tr[@class='v-data-table__tr v-data-table__tr--clickable'])[2]/td/div/div"
+			},
+			"fireFox": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"edge": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"safari": {
+				"xpath": "//th//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			}
+		},
+		"headerList": {
+			"chrome": {
+				"xpath": "//th[starts-with(@class,'text-start')]"
+			},
+			"fireFox": {
+				"xpath": "//th[starts-with(@class,'text-start')]"
+			},
+			"edge": {
+				"xpath": "//th[starts-with(@class,'text-start')]"
+			},
+			"safari": {
+				"xpath": "//th[starts-with(@class,'text-start')]"
+			}
+		},
+		"checkBoxList": {
+			"chrome": {
+				"xpath": "//td//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"fireFox": {
+				"xpath": "//td//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"edge": {
+				"xpath": "//td//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			},
+			"safari": {
+				"xpath": "//td//div[(@class='v-data-table__checkbox v-simple-checkbox')]"
+			}
+		},
+		"nameList": {
+			"chrome": {
+				"xpath": "//tr//td[3]"
+			},
+			"fireFox": {
+				"xpath": "//tr//td[3]"
+			},
+			"edge": {
+				"xpath": "//tr//td[3]"
+			},
+			"safari": {
+				"xpath": "//tr//td[3]"
+			}
+		},
+		"sizeList": {
+			"chrome": {
+				"xpath": "//tr//td[4]"
+			},
+			"fireFox": {
+				"xpath": "//tr//td[4]"
+			},
+			"edge": {
+				"xpath": "//tr//td[4]"
+			},
+			"safari": {
+				"xpath": "//tr//td[4]"
+			}
+		},
+		"updatedDateAndtimeList": {
+			"chrome": {
+				"xpath": "//tr//td[5]"
+			},
+			"fireFox": {
+				"xpath": "//tr//td[5]"
+			},
+			"edge": {
+				"xpath": "//tr//td[5]"
+			},
+			"safari": {
+				"xpath": "//tr//td[5]"
+			}
+		},
+		"menuButtonList": {
+			"chrome": {
+				"xpath": "//div[contains(@style,'3dots.svg')]"
+			},
+			"fireFox": {
+				"xpath": "//div[contains(@style,'3dots.svg')]"
+			},
+			"edge": {
+				"xpath": "//div[contains(@style,'3dots.svg')]"
+			},
+			"safari": {
+				"xpath": "//div[contains(@style,'3dots.svg')]"
+			}
+		},
+		"firstRowMenuBtn": {
+			"chrome": {
+				"xpath": "(//div[contains(@style,'3dots.svg')])[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[contains(@style,'3dots.svg')])[1]"
+			},
+			"edge": {
+				"xpath": "(//div[contains(@style,'3dots.svg')])[1]"
+			},
+			"safari": {
+				"xpath": "(//div[contains(@style,'3dots.svg')])[1]"
+			}
+		},
+		"renameOkBtn": {
+			"chrome": {
+				"xpath": "//span[text()=' OK']"
+			},
+			"fireFox": {
+				"xpath": "//span[text()=' OK']"
+			},
+			"edge": {
+				"xpath": "//span[text()=' OK']"
+			},
+			"safari": {
+				"xpath": "//span[text()=' OK']"
+			}
+		},
+		"shareOkBtn": {
+			"chrome": {
+				"xpath": "//span[text()=' OK ']"
+			},
+			"fireFox": {
+				"xpath": "//span[text()=' OK ']"
+			},
+			"edge": {
+				"xpath": "//span[text()=' OK ']"
+			},
+			"safari": {
+				"xpath": "//span[text()=' OK ']"
+			}
+		},
+		"errorMsgOkBtn": {
+			"chrome": {
+				"xpath": "(//BUTTON[@data-v-326c442a=''])[7]"
+			},
+			"fireFox": {
+				"xpath": ""
+			},
+			"edge": {
+				"xpath": ""
+			},
+			"safari": {
+				"xpath": ""
+			}
+		},
+		"deleteMsgOkBtn": {
+			"chrome": {
+				"xpath": "(//BUTTON[@data-v-326c442a=''])[8]"
+			},
+			"fireFox": {
+				"xpath": ""
+			},
+			"edge": {
+				"xpath": ""
+			},
+			"safari": {
+				"xpath": ""
+			}
+		},
+		"fileCount": {
+			"chrome": {
+				"xpath": "(//div[@class='v-data-table-footer__info'])[1]"
+			},
+			"fireFox": {
+				"xpath": ""
+			},
+			"edge": {
+				"xpath": ""
+			},
+			"safari": {
+				"xpath": ""
+			}
+		},
+		"errorMsginvalid": {
+			"chrome": {
+				"xpath": "//DIV[@data-v-326c442a=''][text()='フォルダー名・ファイル名が不正です。']"
+			},
+			"fireFox": {
+				"xpath": "//DIV[@data-v-326c442a=''][text()='フォルダー名・ファイル名が不正です。']"
+			},
+			"edge": {
+				"xpath": "//DIV[@data-v-326c442a=''][text()='フォルダー名・ファイル名が不正です。']"
+			}
+		},
+		
+		"getFilepathTooLongErrorMsg": {
+			"chrome": {
+				"xpath": "//div[text()='ファイル名またはパスが長すぎます。']"
+			},
+			"fireFox": {
+				"xpath": ""
+			},
+			"edge": {
+				"xpath": ""
+			},
+			"safari": {
+				"xpath": ""
+			}
+		},
+		
+		"errorMsg": {
+			"chrome": {
+				"xpath": "//DIV[@data-v-326c442a=''][text()='フォルダー名・ファイル名が不正です。(406)']"
+			},
+			"fireFox": {
+				"xpath": ""
+			},
+			"edge": {
+				"xpath": ""
+			},
+			"safari": {
+				"xpath": ""
+			}
+		},
+		"rowMenuList": {
+			"chrome": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__title')]"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__title')]"
+			},
+			"edge": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__title')]"
+			},
+			"safari": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__title')]"
+			}
+		},
+		"footerDropDownBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@role='button')]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@role='button')]"
+			},
+			"edge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@role='button')]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@role='button')]"
+			}
+		},
+		"footerDropDownList": {
+			"chrome": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"fireFox": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"edge": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			},
+			"safari": {
+				"xpath": "//div[(@class='v-menu__content theme--light menuable__content__active')]//div[(@class='v-list-item__content')]/div"
+			}
+		},
+		"footerPagination": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__pagination')]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__pagination')]"
+			},
+			"edge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__pagination')]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__pagination')]"
+			}
+		},
+		"footerStatingPageBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"edge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[1]"
+			}
+		},
+		"footerDeforePageBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"edge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-before')]/button[2]"
+			}
+		},
+		"footerEndingPageBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"edge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[1]"
+			}
+		},
+		"footerAfterPageBtn": {
+			"chrome": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"fireFox": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"edge": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			},
+			"safari": {
+				"xpath": "(//div[(@class='v-data-footer')])[2]//div[(@class='v-data-footer__icons-after')]/button[2]"
+			}
+		},
+		"noData": {
+			"chrome": {
+				"xpath": "//tbody/tr[1]/td[1]"
+			},
+			"fireFox": {
+				"xpath": "//tbody/tr[1]/td[1]"
+			},
+			"edge": {
+				"xpath": "//tbody/tr[1]/td[1]"
+			},
+			"safari": {
+				"xpath": "//tbody/tr[1]/td[1]"
+			}
+		}
+	}
+}

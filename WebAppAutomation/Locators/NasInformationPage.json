@@ -1,0 +1,7 @@
+{
+	"elements": {
+		"NASTableTitleLabel": {
+			"Xpath": "(//th[@colspan='4' and @class='card-header'])[5]"
+		}
+	}
+}

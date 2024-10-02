@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome(failed)">
+    <parameter name="configfile" value="properties\chrome\config.properties"/>
+    <classes>
+      <class name="test.script.CreateFolderInPersonalSubFolder">
+        <methods>
+          <include name="verifyErrorMsgIsDisplayedForLPT7"/>
+          <include name="verify84LengthKatakanaCharFolderIsCreatedMultiByte"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT8"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT5"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT6"/>
+          <include name="verifyErrorMsgIsDisplayedForDoubleQuotes"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT9"/>
+          <include name="verifyFolderIsEmpty"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT0"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT3"/>
+          <include name="verifyErrorMsgIsDisplayedForcon"/>
+          <include name="verifyErrorMsgIsDisplayedForMultiplication"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT1"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT2"/>
+          <include name="verify84LengthKanjiCharFolderIsCreatedSingleByte"/>
+          <include name="verifyErrorMsgIsDisplayedForNUL"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM8"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM9"/>
+          <include name="verifyErrorMsgIsDisplayedForSNAPSHOT"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM6"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM7"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM4"/>
+          <include name="deleteAllFolders"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM2"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM3"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM0"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM1"/>
+          <include name="verifyErrorMsgIsDisplayedForLPT4"/>
+          <include name="verifyErrorMsgIsDisplayedForQuestionMark"/>
+          <include name="processTestContext"/>
+          <include name="verifyErrorMsgIsDisplayedForSNAPSHOTS"/>
+          <include name="verifyErrorMsgIsDisplayedForPRN"/>
+          <include name="configureSuite"/>
+          <include name="verifyErrorMsgIsDisplayedForCOM5"/>
+          <include name="verifyErrorMsgIsDisplayedForColon"/>
+          <include name="verifyErrorMsgIsDisplayedForsnapshots"/>
+          <include name="verifyErrorMsgIsDisplayedForNameEndingWithHalfWidthSpace"/>
+          <include name="setupClassCommonSteps"/>
+          <include name="login"/>
+          <include name="verifyErrorMsgIsDisplayedFornul"/>
+          <include name="verifyErrorMsgIsDisplayedForTRASHBOX"/>
+          <include name="tearDown"/>
+          <include name="verifySpecialCharFolderIsCreated"/>
+          <include name="verifyErrorMsgIsDisplayedForBackSlash"/>
+          <include name="verifyErrorMsgIsDisplayedForcom5"/>
+          <include name="verifyErrorMsgIsDisplayedForSnapshot"/>
+          <include name="verify84LengthHiraganaCharFolderIsCreatedMultiByte"/>
+          <include name="verifyErrorMsgIsDisplayedForsnapshot"/>
+          <include name="verifyErrorMsgIsDisplayedForclock$"/>
+          <include name="verify84LengthKatakanaCharFolderIsCreatedSingleByte"/>
+          <include name="verifyErrorMsgIsDisplayedForLessThan"/>
+          <include name="verifyErrorMsgIsDisplayedForcom9"/>
+          <include name="verifyErrorMsgIsDisplayedForcom8"/>
+          <include name="verifyErrorMsgIsDisplayedForcom7"/>
+          <include name="verifyErrorMsgIsDisplayedForcom6"/>
+          <include name="verifyErrorMsgIsDisplayedForprn"/>
+          <include name="verifyErrorMsgIsDisplayedForGreaterThan"/>
+          <include name="verifyErrorMsgIsDisplayedForcom4"/>
+          <include name="verifyErrorMsgIsDisplayedForcom3"/>
+          <include name="verifyErrorMsgIsDisplayedForcom2"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt4"/>
+          <include name="verifyErrorMsgIsDisplayedForcom1"/>
+          <include name="verifyErrorMsgIsDisplayedForcom0"/>
+          <include name="verifyFolderIsCreated"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt8"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt7"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt6"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt5"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt9"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt0"/>
+          <include name="closeBrowser"/>
+          <include name="verify84LengthKanjiCharFolderIsCreatedMultiByte"/>
+          <include name="verifyErrorMsgIsDisplayedForremote_access_backup"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt3"/>
+          <include name="verifyErrorMsgIsDisplayedFortrashbox"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt2"/>
+          <include name="verifyErrorMsgIsDisplayedForAUX"/>
+          <include name="verifyErrorMsgIsDisplayedForlpt1"/>
+          <include name="verifyErrorMsgIsDisplayedForFontSlash"/>
+          <include name="verifyErrorMsgIsDisplayedForCLOCK$"/>
+          <include name="verify84LengthEngCharFolderIsCreatedMultiByte"/>
+          <include name="verifyErrorMsgIsDisplayedForNameEndindWithDot"/>
+          <include name="verifyErrorMsgIsDisplayedForCON"/>
+          <include name="verifyErrorMsgIsDisplayedForPipe"/>
+          <include name="startApplication"/>
+          <include name="verify84LengthEngCharFolderIsCreatedSingleByte"/>
+          <include name="verifyErrorMsgIsDisplayedFortrashBox"/>
+          <include name="verifyErrorMsgIsDisplayedForaux"/>
+          <include name="verifyErrorMsgIsDisplayedForNameStartingWithHalfWidthSpace"/>
+          <include name="verifyErrorMsgIsDisplayedForREMOTE_ACCESS_BACKUP"/>
+        </methods>
+      </class> <!-- test.script.CreateFolderInPersonalSubFolder -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Parallel Test Suite] -->
